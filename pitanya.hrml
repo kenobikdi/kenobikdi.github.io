@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ЗМІСТ</title>
+	</head>
+	<body>
+		<div class="menu">
+			<h1 style="margin:0;">ЗМІСТ</h1>
+		</div>
+		<div class="zmist">
+			<ul>
+			
+			<a href="metodichka.html" class="pzm"><li class="punktimenu">Методичні вказівки 
+ для самостійної роботи студентів</li></a>
+			<a href="navchalnaprograma.html" class="pzm"><li class="punktimenu">Навчальна програма</li></a>
+			<a href="lekcii.html" class="pzm"><li class="punktimenu">Лекційні матеріали</li>   </a>
+			<a href="seminari.html" class="pzm"><li class="punktimenu">Семінари</li> </a>
+			<a href="video.html" class="pzm"><li class="punktimenu">Мультимедійні матеріали</li></a>
+			<a href="pitanya.html" class="pzm"><li class="punktimenu">Питання до заліку</li></a>
+			
+			</ul>
+		</div>
+	</body>
+</html>

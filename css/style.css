@@ -1,0 +1,267 @@
+body {
+	background: url(../sokrat.jpg)  fixed #247BB8;
+	background-size: cover;
+	margin:0;
+	padding:0;
+}
+.bg {
+	background:#688A9B;
+}
+.titulka {
+	background:white;
+	width:40%;
+	margin-left:45%;
+	margin-right:5%;
+	padding:5%;
+	text-align:center;
+	margin-top:10%;
+	opacity: 0.7;
+	border-radius:15px;
+}
+.zagol{
+	color:black;
+}
+.zagol:visited {
+	color:black;
+}
+.zagol:hover {
+	color:gray;
+}
+.zmist{
+	background:white;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	padding:0;
+	text-align:center;
+
+
+	
+}
+div.lekcmen {
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+}
+.menu {
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:100%;
+	text-align:center;
+	background:black;
+	color:white;
+	
+}
+ul{
+	padding:0;
+}
+ul li.punktimenu{
+	list-style-type: none;
+	border: 1px solid black;
+	padding:0;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin:0;
+	padding-left:5px;
+}
+li.lekcmen {
+	text-align:left;
+}
+.pzm{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+}
+.pzmG{
+	background:#2AFF3F;
+	
+}
+.pzmG h2{
+	margin:5px;
+}
+.pzm:visited{
+	color:black;
+}
+.pzm:hover li{
+	background:#FFFF74;
+}
+.text {
+	background:white;
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	padding-left:10px;
+	padding-top:5px;
+	padding-right:10px;
+	margin-top:15px;
+	border-radius:10px;
+	border:1px solid black;
+	margin-bottom:15px;
+}
+td {
+	width:16%;
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+	border: 2px solid black;
+	font-size:20px;
+   }
+.navpr td{
+	width:90%;
+	
+}
+.navpr {
+	margin-bottom:5%;
+}
+.bold {
+	font-weight:bold;
+}
+p {
+	font-size:20px;
+}
+.puntkitext {
+	list-style-type: none;
+	font-size:20px;
+	font-weight:bold;
+	padding-left:30px;
+}
+ol li.puntkitext {
+	font-weight:normal;
+	list-style-type: decimal;
+}
+.return1{
+	display:none;
+	
+}
+.return1 img{
+	width:75px;
+}
+.return {
+	position:fixed;
+	top:70px;
+	left:20px;
+	background:#FFF700;
+	border-radius:10px;
+	padding:0;
+	margin:0;
+}
+.return p {
+	margin:0;
+	padding:5px;
+	border-radius:10px;
+}
+.areturn {
+	text-decoration:none;
+	color:black;
+}
+.areturn:visited {
+	color:black;
+}
+.areturn:hover p {
+	background:#FFFB82;
+}
+.video {
+	text-align:center;
+}
+video, iframe{
+	width:80%;
+	height:400px;
+	margin-left:10%;
+	margin-right:10%;
+	background:black;
+}
+.text-right {
+	text-align:right;
+	margin:10%;
+}
+.tema {
+	text-align:center;
+}
+.tema span {
+	text-decoration:underline;
+}
+.navprog li{
+	list-style-type: none;
+	font-size:20px;
+}
+.navprog {
+	margin-left:10%;
+}
+
+
+a.metod:hover {
+	color:yellow;
+}
+div.metod {
+	margin-left:24%;
+	margin-right:24%;
+}
+@media screen and (max-width: 1024px) {
+	.zmist, div.lekcmen{
+		width:90%;
+		margin-left:5%;
+		margin-right:5%;
+	}
+	.pzm {
+		font-size:30px;
+	}
+	.return1 {
+		display:block;
+		position:fixed;
+		top:70px;
+		left:20px;
+		padding:0;
+		margin:0;
+	}
+	.return {
+		display:none;
+	}
+	iframe {
+		width:80%;
+		height:300px;
+    }
+	div.metod {
+	margin-left:10%;
+	margin-right:10%;
+}
+}
+@media screen and (max-width: 800px) {
+	.text {
+		
+		width:93%;
+		margin-left:1.5%;
+		margin-right:1.5%;
+		padding:2%;
+	}
+	.return1 {
+		display:block;
+		position:fixed;
+		top:5px;
+		left:20px;
+		padding:0;
+		margin:0;
+	}
+	.return1 img{
+		width:47px;
+	}
+	.titulka {
+		
+		width:90%;
+		margin-left:5%;
+		margin-right:5%;
+		padding:1%;
+		margin-top:20%;
+		font-size:13px;
+		border-radius:15px;
+	}
+}
+@media screen and (max-width: 600px) {
+	iframe {
+		width:80%;
+		height:200px;
+    }
+}
